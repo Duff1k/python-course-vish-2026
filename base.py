@@ -1,7 +1,3 @@
-###my_name = input("Как вас зовут?")
-###print(f"Меня зовут {my_name}")
-from pkgutil import walk_packages
-
 age = 25
 print(age)
 print(type(age))
