@@ -97,7 +97,7 @@ print(sorted(prices))
 by_price = dict(sorted(prices.items(), key=lambda item: item[1], reverse=False))
 print(by_price)
 
-students = [('Аня', 87), ('Борис', 95), ('Вика', 72), ('Глеб', 90), ('Михаил', 87)]
+students = [('Аня', 87), ('Борис', 95), ('Вика', 72), ('Таня', 90), ('Михаил', 87)]
 print(sorted(students, key=lambda s: (-s[1], s[0])))
 
 print((1, 'б') < (2, 'a'))
